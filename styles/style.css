@@ -377,6 +377,7 @@ header{
 }
 
 .section-5 .tile-wrapper .box-wrapper-2 .box-2 h6{
+    font-weight: 400;
     display: inline;
 }
 
@@ -388,54 +389,94 @@ header{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ------ SECTION-6 ------ */
 
 
 .section-6{
-    background-color: lightblue;
     padding: 10px;
 }
 
-.section-6 .wrapper{
-    background-color: lightcoral;
+.section-6 .tile-wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100%;
 }
 
-.section-6 .wrapper .box{
+.section-6 .tile-wrapper .box-wrapper-1,.section-6 .tile-wrapper .box-wrapper-2{
     height: 100%;
     width: 49.5%;
-    background-color: lightgreen;
+}
+
+.section-6 .tile-wrapper .box-wrapper-1:hover,.section-6 .tile-wrapper .box-wrapper-2:hover{
+    cursor: pointer;
+}
+
+.section-6 .tile-wrapper .box-wrapper-1{
+    background-color: #000;
+    color: whitesmoke;
+}
+
+.section-6 .tile-wrapper .box-wrapper-2{
+    color: whitesmoke;
+}
+
+.section-6 .tile-wrapper .box-wrapper-1 .box-1,.section-6 .tile-wrapper .box-wrapper-2 .box-2{
+    height: 100%;
+    width: 100%;
+}
+
+.section-6 .tile-wrapper .box-wrapper-1 .box-1{
+    background-image: url('../images/section-6.1.jpg');
+    background-position: bottom;
+    background-size: 45%;
+}
+
+.section-6 .tile-wrapper .box-wrapper-1 .box-1 h1{
+    padding-top: 6vmin;
+}
+
+.section-6 .tile-wrapper .box-wrapper-1 .box-1 h5{
+    font-weight: 400;
+}
+
+.section-6 .tile-wrapper .box-wrapper-1 .box-1 h6{
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--link);
+    display: inline;
+}
+
+.section-6 .tile-wrapper .box-wrapper-1 .box-1 h6:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.section-6 .tile-wrapper .box-wrapper-2 .box-2{
+    background-image: url('../images/section-6.2.jpg');
+    background-position: bottom;
+    background-size: 200%;
+}
+
+.section-6 .tile-wrapper .box-wrapper-2 .box-2 h1{
+    padding-top: 6vmin;
+}
+
+.section-6 .tile-wrapper .box-wrapper-2 .box-2 h5{
+    font-weight: 400;
+}
+
+.section-6 .tile-wrapper .box-wrapper-2 .box-2 .btn-container .left{
+    margin-right: 30px;
+}
+
+.section-6 .tile-wrapper .box-wrapper-2 .box-2 .btn-container h6{
+    padding-top: 20px;
+    font-weight: 400;
+}
+
+.section-6 .tile-wrapper .box-wrapper-2 .box-2 .btn-container h6:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
