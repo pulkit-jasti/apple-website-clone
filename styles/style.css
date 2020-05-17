@@ -71,8 +71,8 @@ header{
     font-weight: 500;
     font-size: 1.3rem;
     color: var(--link);
-    margin-top: 30px;
     display: inline;
+    margin-top: 30px;
 }
 
 .section-1 .container h6:hover{
@@ -179,6 +179,7 @@ header{
     text-decoration: underline;
     cursor: pointer;
 }
+
 
 
 
@@ -291,31 +292,131 @@ header{
 
 
 
-
-
-
-
-
-
+/* ------ SECTION-5 ------ */
 
 .section-5{
-    background-color: lightblue;
     padding: 10px;
 }
 
-.section-5 .wrapper{
-    background-color: lightcoral;
+.section-5 .tile-wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100%;
+    color: whitesmoke;
 }
 
-.section-5 .wrapper .box{
+.section-5 .tile-wrapper .box-wrapper-1, .section-5 .tile-wrapper .box-wrapper-2{
     height: 100%;
     width: 49.5%;
-    background-color: lightgreen;
+    cursor: pointer;
 }
+
+.section-5 .tile-wrapper .box-wrapper-1 .box-1, .section-5 .tile-wrapper .box-wrapper-2 .box-2{
+    height: 100%;
+    width: 100%;
+}
+
+.section-5 .tile-wrapper .box-wrapper-1 .box-1{
+    background-image: url('../images/section-5.1.jpg');
+    background-position: top;
+    background-size: 100%;
+    position: relative;
+}
+
+.section-5 .tile-wrapper .box-wrapper-1 .box-1 .text-wrapper{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-5 .tile-wrapper .box-wrapper-1 .box-1 .text-wrapper h5{
+    font-weight: 400;
+}
+
+.section-5 .tile-wrapper .box-wrapper-1 .box-1 .text-wrapper .btn-container{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.section-5 .tile-wrapper .box-wrapper-1 .box-1 .text-wrapper .btn-container h6{
+    display: inline;
+}
+
+.section-5 .tile-wrapper .box-wrapper-1 .box-1 .text-wrapper .btn-container h6:hover{
+    text-decoration: underline;
+}
+
+.section-5 .tile-wrapper .box-wrapper-1 .box-1 .text-wrapper .btn-container .left{
+    margin-right: 30px;
+}
+
+.section-5 .tile-wrapper .box-wrapper-2 .box-2{
+    background-image: url('../images/section-5.2.jpg');
+    background-position: bottom;
+    background-size: 190%;
+}
+
+.section-5 .tile-wrapper .box-wrapper-2 .box-2 h1{
+    padding-top: 40px;
+    font-size: 1.8rem;
+}
+
+.section-5 .tile-wrapper .box-wrapper-2 .box-2 .gradient-text{
+    margin: 30px  0;
+    font-size: 2rem;
+}
+
+.section-5 .tile-wrapper .box-wrapper-2 .box-2 .gradient-text p{
+    background: -webkit-linear-gradient(left,#0fefff 20%, #e627ff 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: -10px;
+    font-family: 'SF UI Display Bold';
+}
+
+.section-5 .tile-wrapper .box-wrapper-2 .box-2 h6{
+    display: inline;
+}
+
+.section-5 .tile-wrapper .box-wrapper-2 .box-2 h6:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
