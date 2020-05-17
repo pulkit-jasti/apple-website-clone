@@ -5,6 +5,7 @@
 
 :root{
     --link: #3e95d3;
+    --height: 90vh;
 }
 
 *{
@@ -24,6 +25,7 @@
 section{
     overflow-x: hidden;
     margin-bottom: 10px;
+    height: 90vh;
 }
 
 /*
@@ -37,7 +39,6 @@ header{
 
 .section-1{
     background-color: #131313;
-    height: 100vh;
 }
 
 .section-1:hover{
@@ -71,6 +72,7 @@ header{
     font-size: 1.3rem;
     color: var(--link);
     margin-top: 30px;
+    display: inline;
 }
 
 .section-1 .container h6:hover{
@@ -86,7 +88,6 @@ header{
 /* ------ SECTION-2 ------ */
 
 .section-2{
-    height: 90vh;
     background-color: #fafafa;
 }
 
@@ -121,6 +122,7 @@ header{
     font-size: 1.3rem;
     color: var(--link);
     margin-top: 30px;
+    display: inline;
 }
 
 .section-2 .container-fluid h6:hover{
@@ -136,7 +138,6 @@ header{
 /* ------ SECTION-3 ------ */
 
 .section-3{
-    height: 90vh;
     background-color: #000;
 }
 
@@ -171,6 +172,7 @@ header{
     font-size: 1.3rem;
     color: var(--link);
     margin-top: 30px;
+    display: inline;
 }
 
 .section-3 .container-fluid h6:hover{
@@ -184,14 +186,155 @@ header{
 
 /* ------ SECTION-4 ------ */
 
-.section-4 .container-fluid .row .col-md-6{
-    height: 200px;
+.section-4{
+    padding: 10px;
 }
 
-.section-4 .container-fluid .row .left{
+.section-4 .tile-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.section-4 .tile-wrapper .box-wrapper-1, .section-4 .tile-wrapper .box-wrapper-2{
+    height: 100%;
+    width: 49.5%;
+}
+
+.section-4 .tile-wrapper .box-wrapper-1{
+    background-color: #fafafa;
+}
+
+.section-4 .tile-wrapper .box-wrapper-1:hover{
+    cursor: pointer;
+}
+
+.section-4 .tile-wrapper .box-wrapper-1 .box-1{
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/section-4.1.jpg');
+    background-position: bottom;
+    background-size: 55%;
+}
+
+.section-4 .tile-wrapper .box-wrapper-1 .box-1 h1{
+    padding-top: 6vmin;
+    letter-spacing: -2px;
+    font-family:'SF UI Display Heavy' !important;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.section-4 .tile-wrapper .box-wrapper-1 .box-1 h4{
+    color: rgb(199, 63, 0);
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.section-4 .tile-wrapper .box-wrapper-1 .box-1 h5{
+    font-weight: 400;
+}
+
+.section-4 .tile-wrapper .box-wrapper-1 .box-1 h6{
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--link);
+    display: inline;
+}
+
+.section-4 .tile-wrapper .box-wrapper-1 .box-1 h6:hover{
+    text-decoration: underline;
+}
+
+.section-4 .tile-wrapper .box-wrapper-2{
+    background-color: #131218;
+}
+
+.section-4 .tile-wrapper .box-wrapper-2:hover{
+    cursor: pointer;
+}
+
+.section-4 .tile-wrapper .box-wrapper-2 .box-2{
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/section-4.2.jpg');
+    background-position: bottom;
+    background-size: 210%;
+    color: whitesmoke;
+}
+
+.section-4 .tile-wrapper .box-wrapper-2 .box-2 h1{
+    padding-top: 6vmin;
+}
+
+.section-4 .tile-wrapper .box-wrapper-2 .box-2 h5{
+    font-weight: 400;
+}
+
+.section-4 .tile-wrapper .box-wrapper-2 .box-2 h6{
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--link);
+    display: inline;
+}
+
+.section-4 .tile-wrapper .box-wrapper-2 .box-2 h6:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-5{
     background-color: lightblue;
+    padding: 10px;
 }
 
-.section-4 .container-fluid .row .right{
+.section-5 .wrapper{
     background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.section-5 .wrapper .box{
+    height: 100%;
+    width: 49.5%;
+    background-color: lightgreen;
+}
+
+
+
+
+.section-6{
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.section-6 .wrapper{
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.section-6 .wrapper .box{
+    height: 100%;
+    width: 49.5%;
+    background-color: lightgreen;
 }
