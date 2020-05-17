@@ -1,2 +1,4 @@
-# apple-website-clone-bootstrap
-Apple website look alike built using bootstrap 4; is responsive.
+# Apple Website Clone
+
+Apple website look alike with **'SLIGHT'** changes.   
+Built using bootstrap 4 and is responsive.
