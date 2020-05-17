@@ -28,6 +28,15 @@ section{
     height: 90vh;
 }
 
+.fa-apple{
+    margin-right: 10px;
+}
+
+.fa-chevron-right{
+    font-size: 12px;
+    margin-left: 5px;
+}
+
 /*
 header{
     position: fixed;
@@ -80,6 +89,10 @@ header{
     cursor: pointer;
 }
 
+.section-1 .container-fluid h6 i{
+    font-size: 15px;
+}
+
 
 
 
@@ -128,6 +141,10 @@ header{
 .section-2 .container-fluid h6:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+
+.section-2 .container-fluid h6 i{
+    font-size: 15px;
 }
 
 
@@ -180,6 +197,10 @@ header{
     cursor: pointer;
 }
 
+.section-3 .container-fluid h6 i{
+    font-size: 15px;
+}
+
 
 
 
@@ -188,7 +209,7 @@ header{
 /* ------ SECTION-4 ------ */
 
 .section-4{
-    padding: 10px;
+    padding: 0 10px;
 }
 
 .section-4 .tile-wrapper{
@@ -228,6 +249,10 @@ header{
     letter-spacing: 2px;
 }
 
+.section-4 .tile-wrapper .box-wrapper-1 .box-1 h1 i{
+    font-size: 2.5rem;
+}
+
 .section-4 .tile-wrapper .box-wrapper-1 .box-1 h4{
     color: rgb(199, 63, 0);
     text-transform: uppercase;
@@ -241,7 +266,7 @@ header{
 }
 
 .section-4 .tile-wrapper .box-wrapper-1 .box-1 h6{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1rem;
     color: var(--link);
     display: inline;
@@ -277,7 +302,7 @@ header{
 }
 
 .section-4 .tile-wrapper .box-wrapper-2 .box-2 h6{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1rem;
     color: var(--link);
     display: inline;
@@ -295,7 +320,7 @@ header{
 /* ------ SECTION-5 ------ */
 
 .section-5{
-    padding: 10px;
+    padding: 0 10px;
 }
 
 .section-5 .tile-wrapper{
@@ -342,6 +367,7 @@ header{
 
 .section-5 .tile-wrapper .box-wrapper-1 .box-1 .text-wrapper .btn-container h6{
     display: inline;
+    font-weight: 400;
 }
 
 .section-5 .tile-wrapper .box-wrapper-1 .box-1 .text-wrapper .btn-container h6:hover{
@@ -350,6 +376,10 @@ header{
 
 .section-5 .tile-wrapper .box-wrapper-1 .box-1 .text-wrapper .btn-container .left{
     margin-right: 30px;
+}
+
+.section-5 .tile-wrapper .box-wrapper-2{
+    background-color: #000;
 }
 
 .section-5 .tile-wrapper .box-wrapper-2 .box-2{
@@ -393,7 +423,7 @@ header{
 
 
 .section-6{
-    padding: 10px;
+    padding: 0 10px;
 }
 
 .section-6 .tile-wrapper{
