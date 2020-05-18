@@ -1,0 +1,10 @@
+@media (max-width: 768px){
+    .tile-wrapper{
+        flex-direction: column;
+    }
+
+    .section-4 .tile-wrapper .box-wrapper-1, .section-4 .tile-wrapper .box-wrapper-2, .section-5 .tile-wrapper .box-wrapper-1, .section-5 .tile-wrapper .box-wrapper-2, .section-6 .tile-wrapper .box-wrapper-1, .section-6 .tile-wrapper .box-wrapper-2{
+        width: 100%;
+    }
+    
+}
