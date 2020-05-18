@@ -15,7 +15,7 @@
 }
 
 .wrapper-menu.open {
-    transform: rotate(-45deg);  
+    transform: rotate(-45deg) scale(.4,.4);
 }
 
 .line-menu {
@@ -66,6 +66,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    font-family: 'SF UI Display Thin';
+    letter-spacing: 1px;
 }
 
 .container-fluid{
@@ -114,6 +116,9 @@ header nav{
 }
 
 .navbar .navbar-brand{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 !important;
     margin-left: 80px;
     color: rgba(245, 245, 245, 0.7);
     transition-property: all;
@@ -166,7 +171,7 @@ header nav{
 }
 
 .section-1 .container h1{
-    padding-top: 4rem;
+    padding-top: 5rem;
     font-size: 3.5rem;
     font-weight: 600;
     letter-spacing: -2px;
@@ -215,22 +220,23 @@ header nav{
 .section-2 .container-fluid{
     background-image: url('../images/section-2.jpg');
     background-position: bottom;
-    background-size: 160vh;
+    background-size: 150%;
     height: 100%;
     color: black;
 }
 
 .section-2 .container-fluid h1{
-    padding-top: 4rem;
-    font-size: 3.5rem;
+    padding-top: 2.5rem;
+    font-size: 3.25rem;
     font-weight: 600;
     letter-spacing: -2px;
     font-family:'SF UI Display Semibold' !important;
 }
 
 .section-2 .container-fluid h5{
+    font-family: 'SF UI Display Light';
     font-weight: 400;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-top: -10px;
 }
 
@@ -270,22 +276,21 @@ header nav{
 .section-3 .container-fluid{
     background-image: url('../images/section-3.jpg');
     background-position: bottom;
-    background-size: 210vh;
+    background-size: 210%;
     height: 100%;
     color: whitesmoke;
 }
 
 .section-3 .container-fluid h1{
     padding-top: 4rem;
-    font-size: 3.5rem;
-    font-weight: 600;
+    font-size: 3.3rem;
     letter-spacing: -2px;
     font-family:'SF UI Display Semibold' !important;
 }
 
 .section-3 .container-fluid h5{
-    font-weight: 400;
-    font-size: 1.7rem;
+    font-family: 'SF UI Display Light';
+    font-size: 1.5rem;
     margin-top: -10px;
 }
 
@@ -366,6 +371,7 @@ header nav{
 
 .section-4 .tile-wrapper .box-wrapper-1 .box-1 h5{
     font-weight: 400;
+    font-family: 'SF UI Display Light';
 }
 
 .section-4 .tile-wrapper .box-wrapper-1 .box-1 h6{
@@ -398,10 +404,13 @@ header nav{
 
 .section-4 .tile-wrapper .box-wrapper-2 .box-2 h1{
     padding-top: 6vmin;
+    font-weight: 600;
+    font-family: 'SF UI Display Semibold';
 }
 
 .section-4 .tile-wrapper .box-wrapper-2 .box-2 h5{
     font-weight: 400;
+    font-family: 'SF UI Display Light';
 }
 
 .section-4 .tile-wrapper .box-wrapper-2 .box-2 h6{
@@ -457,8 +466,13 @@ header nav{
     transform: translateX(-50%);
 }
 
+.section-5 .tile-wrapper .box-wrapper-1 .box-1 .text-wrapper h1{
+    font-family: 'SF UI Display Semibold';
+}
+
 .section-5 .tile-wrapper .box-wrapper-1 .box-1 .text-wrapper h5{
     font-weight: 400;
+    font-family: 'SF UI Display Light';
 }
 
 .section-5 .tile-wrapper .box-wrapper-1 .box-1 .text-wrapper .btn-container{
@@ -492,6 +506,7 @@ header nav{
 .section-5 .tile-wrapper .box-wrapper-2 .box-2 h1{
     padding-top: 40px;
     font-size: 1.8rem;
+    font-family: 'SF UI Display Medium';
 }
 
 .section-5 .tile-wrapper .box-wrapper-2 .box-2 .gradient-text{
@@ -563,10 +578,13 @@ header nav{
 
 .section-6 .tile-wrapper .box-wrapper-1 .box-1 h1{
     padding-top: 6vmin;
+    font-weight: 700;
+    font-family: 'SF UI Display Semibold';
 }
 
 .section-6 .tile-wrapper .box-wrapper-1 .box-1 h5{
     font-weight: 400;
+    font-family: 'SF UI Display Light';
 }
 
 .section-6 .tile-wrapper .box-wrapper-1 .box-1 h6{
@@ -590,10 +608,13 @@ header nav{
 
 .section-6 .tile-wrapper .box-wrapper-2 .box-2 h1{
     padding-top: 6vmin;
+    font-weight: 600;
+    font-family: 'SF UI Display Semibold';
 }
 
 .section-6 .tile-wrapper .box-wrapper-2 .box-2 h5{
     font-weight: 400;
+    font-family: 'SF UI Display Light';
 }
 
 .section-6 .tile-wrapper .box-wrapper-2 .box-2 .btn-container .left{
