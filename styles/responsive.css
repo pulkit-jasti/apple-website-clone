@@ -1,4 +1,4 @@
-@media (max-width: 768px){
+@media (max-width: 576px){
     .tile-wrapper{
         flex-direction: column;
     }
@@ -6,5 +6,60 @@
     .section-4 .tile-wrapper .box-wrapper-1, .section-4 .tile-wrapper .box-wrapper-2, .section-5 .tile-wrapper .box-wrapper-1, .section-5 .tile-wrapper .box-wrapper-2, .section-6 .tile-wrapper .box-wrapper-1, .section-6 .tile-wrapper .box-wrapper-2{
         width: 100%;
     }
+
+    .section-1, .section-2, .section-3, .section-4 .tile-wrapper .box-wrapper-1 .box-1, .section-4 .tile-wrapper .box-wrapper-2 .box-2, .section-5 .tile-wrapper .box-wrapper-1 .box-1, .section-5 .tile-wrapper .box-wrapper-2 .box-2, .section-6 .tile-wrapper .box-wrapper-1 .box-1,.section-6 .tile-wrapper .box-wrapper-2 .box-2{
+        height: 60vh;
+    }
+
+    .section-4 .tile-wrapper .box-wrapper-1 .box-1{
+        background-size: 40vh;
+    }
+
+    .section-4 .tile-wrapper .box-wrapper-2 .box-2{
+        background-size: 150vh;
+    }
+
+    .section-5 .tile-wrapper .box-wrapper-1 .box-1{
+        background-size: 60vh;
+    }
+
+    .section-5 .tile-wrapper .box-wrapper-2 .box-2{
+        background-size: 150vh;
+    }
     
+    .section-6 .tile-wrapper .box-wrapper-1 .box-1{
+        background-size: 30vh;
+    }
+
+    .section-6 .tile-wrapper .box-wrapper-2 .box-2{
+        background-size: 150vh;
+        background-position-y: -10px;
+    }
+
+    /*.section-6 .tile-wrapper .box-wrapper-2 .box-2 .btn-container, .section-5 .tile-wrapper .box-wrapper-1 .box-1 .text-wrapper .btn-container{
+        flex-direction: row;
+    }*/
+}
+
+
+@media (max-width:768px){
+    .tile-wrapper{
+        flex-direction: column;
+    }
+
+    .section-4 .tile-wrapper .box-wrapper-1, .section-4 .tile-wrapper .box-wrapper-2, .section-5 .tile-wrapper .box-wrapper-1, .section-5 .tile-wrapper .box-wrapper-2, .section-6 .tile-wrapper .box-wrapper-1, .section-6 .tile-wrapper .box-wrapper-2{
+        width: 100%;
+    }
+
+    .section-1, .section-2, .section-3{
+        height: 60vh;
+    }
+
+    .section-4 .tile-wrapper .box-wrapper-1 .box-1, .section-4 .tile-wrapper .box-wrapper-2 .box-2, .section-5 .tile-wrapper .box-wrapper-1 .box-1, .section-5 .tile-wrapper .box-wrapper-2 .box-2, .section-6 .tile-wrapper .box-wrapper-1 .box-1,.section-6 .tile-wrapper .box-wrapper-2 .box-2{
+        height: 80vh;
+    }
+
+    .section-4 .tile-wrapper .box-wrapper-1, .section-5 .tile-wrapper .box-wrapper-1 , .section-6 .tile-wrapper .box-wrapper-1{
+        margin-bottom: 10px;
+    }
 }

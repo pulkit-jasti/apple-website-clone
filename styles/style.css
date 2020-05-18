@@ -116,7 +116,7 @@ header{
 .section-2 .container-fluid{
     background-image: url('../images/section-2.jpg');
     background-position: bottom;
-    background-size: 160%;
+    background-size: 160vh;
     height: 100%;
     color: black;
 }
@@ -421,8 +421,8 @@ header{
 
 
 
-/* ------ SECTION-6 ------ */
 
+/* ------ SECTION-6 ------ */
 
 .section-6{
     padding: 0 10px;
