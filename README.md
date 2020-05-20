@@ -1,4 +1,4 @@
-# Apple Website Clone
+# Apple Website Landing Page Clone
 
 Apple website look alike with **'SLIGHT'** changes.   
 Built using bootstrap 4 and is responsive.   
