@@ -28,10 +28,6 @@ section{
     margin-bottom: 10px;
 }
 
-.fa-apple{
-    margin-right: 10px;
-}
-
 .fa-chevron-right{
     font-size: 12px;
     margin-left: 5px;
@@ -41,7 +37,7 @@ section{
     display: flex;
 }
 
-
+/*
 header{
     padding: 0;
     margin: 0;
@@ -102,7 +98,7 @@ header nav{
 
 
 /* ------ HAMBURGER TOGGLE BUTTON ------- */
-
+/*
 .wrapper-menu {
     width: 50px;
     height: 50px;
@@ -148,7 +144,7 @@ header nav{
     transform: rotate(-90deg) translateX(-3px);
 }
 
-
+*/
 
 
 
