@@ -1,0 +1,17 @@
+{
+    "liveSassCompile.settings.formats": [{
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "./css"
+    }],
+
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.wordWrap": "on",
+    },
+
+    "[plaintext]": {
+        "editor.formatOnSave": true,
+        "editor.wordWrap": "on",
+    }
+}

@@ -61,7 +61,7 @@ header .menu li a:hover {
 
 @media (max-width: 768px) {
   header {
-    position: absolute;
+    position: fixed;
     display: block;
     top: 0;
     left: 0;
@@ -305,4 +305,4 @@ header .menu li a:hover {
             position: fixed;
         }
     }*/
-/*# sourceMappingURL=sample.css.map */
+/*# sourceMappingURL=header.css.map */
