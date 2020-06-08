@@ -67,7 +67,6 @@ header .menu li a:hover {
     left: 0;
     height: 50px;
     width: 100%;
-    background: rgba(0, 0, 0, 0.8);
     overflow: hidden;
     -webkit-transition: all 0.5s ease-out, background 1s ease-out;
     transition: all 0.5s ease-out, background 1s ease-out;
@@ -155,6 +154,7 @@ header .menu li a:hover {
     display: none;
   }
   header ul.menu li.menu-item {
+    width: 70vw;
     border-bottom: 1px solid #333;
     margin-top: 5px;
     -webkit-transform: scale(1.15) translateY(-30px);
@@ -219,7 +219,6 @@ header .menu li a:hover {
   }
   header.menu-opened {
     height: 100%;
-    background-color: #000;
     -webkit-transition: all 0.3s ease-in, background 0.5s ease-in;
     transition: all 0.3s ease-in, background 0.5s ease-in;
     -webkit-transition-delay: 0.25s;
